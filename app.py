@@ -10,4 +10,4 @@ def home():
     return f"<h1>You took {load_time:.2f} seconds to visit this website.</h1>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
